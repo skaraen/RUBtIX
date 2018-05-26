@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RubikTimer"
+    android:background="@drawable/cube3"
+    android:id="@+id/screen">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Inspection Time"
+        android:textSize="30sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/cdTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-thin"
+        android:text="00:15:00"
+        android:textSize="80sp"
+        android:textColor="@color/grey"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="190dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Solving Time"
+        android:textSize="30sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/solveTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-190dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="00:00:00"
+        android:textSize="80sp"
+        android:textColor="@color/grey"/>
+
+    <TextView
+        android:id="@+id/guide"
+        android:layout_width="221dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="Tap to begin countdown."
+        android:textSize="20sp"
+        android:textColor="#ffffff"/>
+</RelativeLayout>
